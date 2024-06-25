@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="container">
+    <div id="cadastro">
+      <h2 class="logo">
+        <b><span>Cadastro </span> de <span>Produtos</span></b>
+      </h2>
+
+      <form id="produtoForm">
+        <label for="name">Nome do produto:</label><br />
+        <input type="text" id="nome" name="nome" /><br />
+        <label for="description">Descrição do produto:</label><br />
+        <input type="text" id="descricao" name="descricao" /><br />
+        <label for="price">Valor do produto:</label><br />
+        <input type="number" id="preco" name="preco" /><br />
+        <label for="available">Disponível para venda:</label><br />
+        <select id="estoque" name="estoque">
+          <option value="sim">Sim</option>
+          <option value="nao">Não</option></select
+        ><br />
+        <input type="submit" value="Cadastrar" />
+      </form>
+    </div>
+    <div id="listagem">
+      <h2>Listagem de Produtos</h2>
+      <table id="produtoTable">
+        <tr>
+          <tr><th>Nome do Produto</th><th>Valor</th><th>Disponível</th><th> </th></tr>
+        </tr>
+      </table>
+    </div>
+  </body>
+  <script type="module" src="./js/listagem.js"></script>
+</html>

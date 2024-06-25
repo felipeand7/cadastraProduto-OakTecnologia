@@ -1,0 +1,162 @@
+* {
+  background: black;
+  color: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: #000000;
+
+  max-width: 1200px;
+}
+
+#cadastro,
+#listagem {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #bbb;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: #000000;
+  color: white;
+}
+
+#cadastro h2 {
+  text-align: center;
+}
+
+form,
+table {
+  width: 100%;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #329437;
+}
+
+table {
+  border-collapse: collapse;
+
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.logo b {
+  font: 700 4vh "roboto";
+  color: rgb(255, 255, 255);
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #0fbffa, 0 0 0.5em #0fbffa,
+    0 0 0.1em #0fbffa;
+}
+.logo b span {
+  animation: blink linear infinite 2s;
+}
+.logo b span:nth-of-type(2) {
+  animation: blink linear infinite 3s;
+}
+@media (max-width: 800px) {
+  .logo b {
+    font: 700 4.1vh "roboto";
+  }
+}
+
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: #333;
+  }
+  80% {
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
+/* follow me @nodws */
+#btn-twtr {
+  clear: both;
+  color: #fff;
+  border: 2px solid;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-family: sans-serif;
+  font-size: 14px;
+  width: 13em;
+  padding: 5px 10px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0px 3px rgba(0, 0, 0, 0.2);
+  opacity: 0.4;
+}
+#btn-twtr:hover {
+  color: #fff;
+  opacity: 1;
+}
